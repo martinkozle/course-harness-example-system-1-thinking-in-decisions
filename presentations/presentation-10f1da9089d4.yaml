@@ -1,0 +1,322 @@
+schema_version: 1
+id: presentation-10f1da9089d4
+lecture_id: lecture-e176b7ccb941
+slides:
+- id: slide-9cc9a601fe4c
+  archived: false
+  layout: title
+  title: Fast Thinking in Decisions
+  subtitle: 'Lecture 1: intuition, heuristics, and the dual-process view'
+  speaker_notes: 'Frame the lecture around one question: when is fast judgment good enough, and when does
+    it need checking? Preview the three parts: why decisions are fast, how System 1 and System 2 divide
+    the work, and when intuition is reliable.'
+  purpose: Introduce the lecture and its roadmap.
+  citations:
+  - source_id: source-3371e674a852
+    label: Evans & Stanovich 2013, Dual-process theories of higher cognition
+    url: null
+    line_start: 12
+    line_end: 12
+  - source_id: source-2ecd078c536a
+    label: Kahneman & Klein 2009, Conditions for intuitive expertise
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-c59981ecd523
+  archived: false
+  layout: bullets
+  title: Why Decisions Are Made Fast
+  bullets:
+  - Decision makers face limits on time, information, and mental effort.
+  - Dual-process accounts treat rapid autonomous processes as the default response.
+  - Less information and less computation can sometimes improve accuracy.
+  speaker_notes: Stress that fast judgment is the normal mode, not a failure. Evans and Stanovich describe
+    rapid autonomous (Type 1) processes as yielding default responses unless higher-order reasoning intervenes.
+    Gigerenzer and Brighton argue that less information, computation, and time can sometimes improve accuracy.
+  purpose: Time, information, and effort limits that push decisions toward fast judgment.
+  citations:
+  - source_id: source-3371e674a852
+    label: Evans & Stanovich 2013, Dual-process theories of higher cognition
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-54f3cd9c1f33
+    label: Gigerenzer & Brighton 2009, Homo heuristicus
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-de9222bec832
+  archived: false
+  layout: bullets
+  title: Dual-Process Theory
+  bullets:
+  - 'System 1: fast, automatic, effortless, associative, often emotionally charged.'
+  - 'System 2: slower, serial, effortful, consciously monitored and controlled.'
+  - Type 2 processing supports hypothetical thinking and loads heavily on working memory.
+  speaker_notes: Use Stanovich and West's labels as Kahneman summarizes them. System 1 is the intuitive
+    mode; System 2 is the deliberate mode. Evans and Stanovich define the difference by hypothetical thinking
+    and working-memory load.
+  purpose: Define System 1 (fast, intuitive) and System 2 (slow, deliberate).
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 245
+    line_end: 249
+  - source_id: source-3371e674a852
+    label: Evans & Stanovich 2013, Dual-process theories of higher cognition
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-e4a1716b2d26
+  archived: false
+  layout: bullets
+  title: Characteristics of System 1
+  bullets:
+  - Operations are implicit, not available to introspection, and often emotionally charged.
+  - Governed by habit, so they are difficult to control or modify.
+  - 'Concurrent-task test: effortful processes interfere with each other; effortless ones do not.'
+  speaker_notes: 'The concurrent-task test is the practical way to classify a process: if adding a second
+    task disrupts it, the process draws on the limited effort capacity that System 2 uses.'
+  purpose: Automatic, associative, effortless, and hard to inspect.
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 245
+    line_end: 267
+- id: slide-f9afac07d917
+  archived: false
+  layout: bullets
+  title: Heuristics as Adaptive Shortcuts
+  bullets:
+  - Heuristics are efficient processes that ignore part of the available information.
+  - Less information, computation, and time can sometimes improve accuracy.
+  - Ecological rationality asks in which environments a given strategy succeeds or fails.
+  speaker_notes: Gigerenzer and Brighton describe the mind as an adaptive toolbox. The key question is
+    not whether a heuristic is biased, but whether it fits the environment. Their abstract argues a biased
+    mind can handle uncertainty more efficiently and robustly than an unbiased, resource-intensive one.
+  purpose: 'Fast-and-frugal view: shortcuts that often work well in real environments.'
+  citations:
+  - source_id: source-54f3cd9c1f33
+    label: Gigerenzer & Brighton 2009, Homo heuristicus
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-6fad69e3083c
+  archived: false
+  layout: bullets
+  title: A Judgment That Is Usually Right
+  bullets:
+  - The bias research is compatible with intuition as generally skilled and successful.
+  - 'Ecological rationality: a heuristic succeeds when its structure fits the environment.'
+  - 'Test in class: when does a fast judgment beat a slower, more thorough one?'
+  speaker_notes: Kahneman's abstract states that the study of biases is compatible with a view of intuitive
+    thinking as generally skilled and successful. Gigerenzer and Brighton's less-is-more results give
+    the mechanism. No worked numerical example is in the admitted Sources yet; add one from the Course
+    Author's material or from a Source before teaching this slide.
+  purpose: Worked example of a quick judgment that performs well in practice.
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-54f3cd9c1f33
+    label: Gigerenzer & Brighton 2009, Homo heuristicus
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-e740db545fd3
+  archived: false
+  layout: bullets
+  title: When Intuition Works
+  bullets:
+  - Intuition is trustworthy when the environment is predictable.
+  - The judge must have had a real chance to learn its regularities.
+  - Subjective confidence is not a reliable indicator of judgment accuracy.
+  speaker_notes: 'Kahneman and Klein reconcile the heuristics-and-biases and naturalistic decision-making
+    traditions. The quality of an intuition depends on two conditions: predictability of the environment
+    and opportunity to learn it.'
+  purpose: Regular environments and rich feedback (Kahneman & Klein, 2009).
+  citations:
+  - source_id: source-2ecd078c536a
+    label: Kahneman & Klein 2009, Conditions for intuitive expertise
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-8a6f556cc30d
+  archived: false
+  layout: bullets
+  title: Expert vs. Novice Intuition
+  bullets:
+  - 'Intuition is not always poor: skilled performance is rapid and effortless after prolonged practice.'
+  - Chess masters recognize patterns quickly, which is skill, not guessing.
+  - Practice and feedback separate expert intuition from novice impressions.
+  speaker_notes: 'Kahneman''s Nobel lecture gives the chess master example: the skill is acquired by prolonged
+    practice, and its performance is rapid and effortless. Kahneman and Klein add that expertise develops
+    in predictable environments where the judge can learn the regularities. Ask students which of their
+    own intuitions come from that kind of practice.'
+  purpose: How practice and feedback shape the reliability of intuitive judgment.
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 400
+    line_end: 412
+  - source_id: source-2ecd078c536a
+    label: Kahneman & Klein 2009, Conditions for intuitive expertise
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-d64a6f36e508
+  archived: false
+  layout: image
+  title: Expert Intuition
+  image_source_id: source-f7c2c9d816c0
+  image_url: null
+  caption: Chess position, Kramnik vs. Lautier, Monaco 1999 (Wikimedia Commons, CC BY-SA 2.5). Photo by
+    Thomas Kretschmer.
+  speaker_notes: 'The photo shows the board from an angle, so students can''t reliably reconstruct the
+    full position or find a move. Use it for the general point instead: a chess master''s quick sense
+    of a position comes from prolonged practice (Kahneman 2003). Ask students what kinds of experience
+    would let them read a situation this way, and whether their own domain gives that kind of practice.
+    Kahneman and Klein add that this skill depends on a predictable environment and a chance to learn
+    its regularities.'
+  purpose: Show skilled, pattern-based intuition using a real chess photo, without requiring a move calculation.
+  citations:
+  - source_id: source-f7c2c9d816c0
+    label: Kretschmer 2006, Schachfiguren (Kramnik-Lautier, Monaco 1999), CC BY-SA 2.5, Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/File:Schachfiguren.jpg
+    line_start: null
+    line_end: null
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 400
+    line_end: 412
+- id: slide-7bbf4113f1f5
+  archived: false
+  layout: bullets
+  title: System 1 Proposes, System 2 Tests
+  bullets:
+  - System 2 monitors the tentative judgments and intentions System 1 produces.
+  - 'Most intuitive errors involve both systems: System 1 generates the error, System 2 fails to catch
+    it.'
+  - Hypothetical thinking is the deliberate check that can test a fast hypothesis.
+  speaker_notes: 'Kahneman''s account assumes System 2 continuously monitors System 1''s tentative judgments.
+    Errors therefore involve two failures: generation by System 1 and non-detection by System 2. In a
+    decision model, the fast output is the hypothesis, and the model or analyst is the test.'
+  purpose: How fast hypotheses feed deliberate checks in decision models.
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 2570
+    line_end: 2585
+  - source_id: source-3371e674a852
+    label: Evans & Stanovich 2013, Dual-process theories of higher cognition
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-d9d69e33a79d
+  archived: false
+  layout: bullets
+  title: Measuring System 1 in Practice
+  bullets:
+  - Concurrent-task interference is the most useful test of whether a process is System 1 or System 2.
+  - Reaction time has long been used as a general-purpose measure of response strength.
+  - Subjective confidence is not a reliable indicator of accuracy.
+  speaker_notes: Kahneman identifies the concurrent-task effect as the most useful indication of System
+    1 versus System 2, and notes that reaction time has been used as a general measure of response strength.
+    Treat response time as an observable signal, not proof of process type. Kahneman and Klein warn that
+    confidence is not a reliable guide to accuracy, which matters when reading a dashboard or a model's
+    output.
+  purpose: Response time, confidence, and framing as observable signals.
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 245
+    line_end: 267
+  - source_id: source-2ecd078c536a
+    label: Kahneman & Klein 2009, Conditions for intuitive expertise
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-b8694c1f9e16
+  archived: false
+  layout: bullets
+  title: 'Data Science Example: Reading a Dashboard'
+  bullets:
+  - 'Quick reads of a dashboard are System 1 judgments: fast, automatic, and effortless.'
+  - A glance surfaces the most salient number and can miss base rates and trends.
+  - 'Ask: what would a slower, deliberate check need to show before acting?'
+  speaker_notes: No admitted Source contains a dashboard case, so this is an instructor-built illustration
+    of the System 1 characteristics from Kahneman 2003. Link and Raab show that base rates matter in real
+    sequential decisions, which is the kind of information a glance can omit. Consider adding a dashboard
+    example from the Course Author's own material.
+  purpose: A dashboard read at a glance, and what that glance can miss.
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-673e21ea03de
+    label: Link & Raab 2021, Experts use base rates in real-world sequential decisions
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-2de44f0f2f38
+  archived: false
+  layout: bullets
+  title: Lecture 1 Summary
+  bullets:
+  - 'Dual-process view: fast System 1 proposes; slower System 2 can test.'
+  - Intuition is reliable in predictable environments with real opportunity to learn.
+  - Heuristics ignore information but can be ecologically rational.
+  - 'Next lecture: how the same fast processes produce systematic errors.'
+  speaker_notes: 'Discussion questions: Where in your own work is a fast judgment reliable, and what would
+    tell you it is not? When would a glance at a dashboard be enough, and when does it need a deliberate
+    check?'
+  purpose: Key takeaways and discussion questions.
+  citations:
+  - source_id: source-3371e674a852
+    label: Evans & Stanovich 2013, Dual-process theories of higher cognition
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-2ecd078c536a
+    label: Kahneman & Klein 2009, Conditions for intuitive expertise
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-54f3cd9c1f33
+    label: Gigerenzer & Brighton 2009, Homo heuristicus
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-32536a60f3b7
+  archived: false
+  layout: bullets
+  title: 'Preview: Heuristics and Systematic Biases'
+  bullets:
+  - Fast judgments are useful but can produce systematic errors.
+  - Lecture 2 covers representativeness, availability, anchoring, and base-rate neglect.
+  - 'Key question: when does a heuristic''s shortcut mislead?'
+  speaker_notes: Bridge to Lecture 2. Kahneman describes the attribute-substitution model of heuristic
+    judgment and the biases that follow from it. Tversky and Kahneman 1974 is the primary source for the
+    heuristics covered next.
+  purpose: Bridge to Lecture 2 on systematic error patterns.
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-ae88dbe50606
+    label: 'Tversky & Kahneman 1974, Judgment under uncertainty: Heuristics and biases'
+    url: null
+    line_start: null
+    line_end: null

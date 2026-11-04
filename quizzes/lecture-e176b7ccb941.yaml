@@ -1,0 +1,176 @@
+schema_version: 1
+lecture_id: lecture-e176b7ccb941
+questions:
+- id: question-a322da1404c1
+  prompt: According to Kahneman (2003), which set of characteristics describes System 1 operations?
+  options:
+  - id: option-58c057332268
+    text: Slow, serial, effortful, and consciously controlled
+    correct: false
+    explanation: These are the characteristics Kahneman assigns to System 2. System 1 operations are fast,
+      automatic, and effortless.
+    citations:
+    - source_id: source-c4bd70e31d8d
+      label: Kahneman 2003, A perspective on judgment and choice
+      url: null
+      line_start: 245
+      line_end: 249
+  - id: option-506debd6a6c5
+    text: Fast, automatic, effortless, and associative
+    correct: true
+    explanation: Kahneman summarizes System 1 as typically fast, automatic, effortless, associative, implicit,
+      and often emotionally charged.
+    citations:
+    - source_id: source-c4bd70e31d8d
+      label: Kahneman 2003, A perspective on judgment and choice
+      url: null
+      line_start: 245
+      line_end: 249
+  - id: option-0bee2c35e8ee
+    text: Rule-governed and dependent on a fixed reasoning sequence
+    correct: false
+    explanation: Rule-governed, flexible processing is part of Kahneman's description of System 2. System
+      1 is governed by habit and is difficult to control or modify.
+    citations:
+    - source_id: source-c4bd70e31d8d
+      label: Kahneman 2003, A perspective on judgment and choice
+      url: null
+      line_start: 245
+      line_end: 249
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 245
+    line_end: 249
+- id: question-b2070a51a90f
+  prompt: A learner asks how to tell whether a mental process belongs to System 1 or System 2. Which test
+    does Kahneman (2003) identify as the most useful?
+  options:
+  - id: option-3f8fe6b0b71e
+    text: Whether the process is accompanied by a confident feeling
+    correct: false
+    explanation: Confidence is not the test Kahneman names. Kahneman and Klein (2009) state that subjective
+      experience is not a reliable indicator of judgment accuracy.
+    citations:
+    - source_id: source-2ecd078c536a
+      label: Kahneman & Klein 2009, Conditions for intuitive expertise
+      url: null
+      line_start: null
+      line_end: null
+  - id: option-d32390f1441e
+    text: Whether a concurrent cognitive task disrupts it
+    correct: true
+    explanation: Kahneman states that the effect of concurrent cognitive tasks is the most useful indication
+      of whether a process belongs to System 1 or System 2.
+    citations:
+    - source_id: source-c4bd70e31d8d
+      label: Kahneman 2003, A perspective on judgment and choice
+      url: null
+      line_start: 245
+      line_end: 267
+  - id: option-def059bd08c8
+    text: Whether the answer is reached in a single step
+    correct: false
+    explanation: Speed of a single answer is not the criterion Kahneman uses. He points to interference
+      from a concurrent task, because effortful processes disrupt each other while effortless ones do
+      not.
+    citations:
+    - source_id: source-c4bd70e31d8d
+      label: Kahneman 2003, A perspective on judgment and choice
+      url: null
+      line_start: 245
+      line_end: 267
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 245
+    line_end: 267
+- id: question-653db7696503
+  prompt: According to Kahneman and Klein (2009), what should determine whether an intuitive judgment
+    is likely to be trustworthy?
+  options:
+  - id: option-382381a257a7
+    text: How strongly the judge feels certain about the answer
+    correct: false
+    explanation: Kahneman and Klein state that subjective experience is not a reliable indicator of judgment
+      accuracy. Confidence alone does not show that an intuition is sound.
+    citations:
+    - source_id: source-2ecd078c536a
+      label: Kahneman & Klein 2009, Conditions for intuitive expertise
+      url: null
+      line_start: null
+      line_end: null
+  - id: option-d2ef12f1f593
+    text: Whether the judge has a long career and a senior title
+    correct: false
+    explanation: Seniority is not the criterion. Kahneman and Klein ask about the predictability of the
+      environment and whether the individual had an opportunity to learn its regularities.
+    citations:
+    - source_id: source-2ecd078c536a
+      label: Kahneman & Klein 2009, Conditions for intuitive expertise
+      url: null
+      line_start: null
+      line_end: null
+  - id: option-9a2b2414e11b
+    text: The predictability of the environment and the judge's opportunity to learn its regularities
+    correct: true
+    explanation: Kahneman and Klein conclude that evaluating an intuitive judgment requires assessing
+      the predictability of the environment and the individual's opportunity to learn its regularities.
+    citations:
+    - source_id: source-2ecd078c536a
+      label: Kahneman & Klein 2009, Conditions for intuitive expertise
+      url: null
+      line_start: null
+      line_end: null
+  citations:
+  - source_id: source-2ecd078c536a
+    label: Kahneman & Klein 2009, Conditions for intuitive expertise
+    url: null
+    line_start: null
+    line_end: null
+- id: question-06ae92ea3924
+  prompt: Gigerenzer and Brighton (2009) argue that heuristics can sometimes outperform more thorough
+    reasoning. Which statement captures their main claim?
+  options:
+  - id: option-c1ede600a762
+    text: Heuristics always lose accuracy, but they save time when stakes are low
+    correct: false
+    explanation: This contradicts the chapter's central claim. The authors argue that less information,
+      computation, and time can in fact improve accuracy, not only save effort.
+    citations:
+    - source_id: source-54f3cd9c1f33
+      label: Gigerenzer & Brighton 2009, Homo heuristicus
+      url: null
+      line_start: null
+      line_end: null
+  - id: option-353986fc88bd
+    text: Using less information can sometimes improve accuracy, and whether a heuristic works depends
+      on the environment
+    correct: true
+    explanation: The chapter reports less-is-more effects and studies the ecological rationality of heuristics,
+      which examines in which environments a strategy succeeds or fails.
+    citations:
+    - source_id: source-54f3cd9c1f33
+      label: Gigerenzer & Brighton 2009, Homo heuristicus
+      url: null
+      line_start: null
+      line_end: null
+  - id: option-58cac30b900a
+    text: A biased mind is always less efficient than an unbiased mind across all environments
+    correct: false
+    explanation: 'The chapter argues the opposite in uncertain settings: a biased mind can handle uncertainty
+      more efficiently and robustly than an unbiased mind that relies on resource-intensive processing.'
+    citations:
+    - source_id: source-54f3cd9c1f33
+      label: Gigerenzer & Brighton 2009, Homo heuristicus
+      url: null
+      line_start: null
+      line_end: null
+  citations:
+  - source_id: source-54f3cd9c1f33
+    label: Gigerenzer & Brighton 2009, Homo heuristicus
+    url: null
+    line_start: null
+    line_end: null

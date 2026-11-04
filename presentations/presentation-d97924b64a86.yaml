@@ -1,0 +1,364 @@
+schema_version: 1
+id: presentation-d97924b64a86
+lecture_id: lecture-dcd96db2cb56
+slides:
+- id: slide-e08d5b7a3f32
+  archived: false
+  layout: title
+  title: Heuristics and Systematic Biases
+  subtitle: Three heuristics, their characteristic errors, and how to measure them
+  speaker_notes: 'Frame the lecture around one question: when do fast judgments fail in predictable ways,
+    and how would we know? Lecture 1 established System 1 as useful; today we catalogue its characteristic
+    errors.'
+  purpose: Introduce the lecture objectives.
+  citations:
+  - source_id: source-ae88dbe50606
+    label: 'Tversky & Kahneman 1974, Judgment under uncertainty: Heuristics and biases'
+    url: null
+    line_start: 12
+    line_end: 12
+- id: slide-daeebf98f7d7
+  archived: false
+  layout: bullets
+  title: Judgment Under Uncertainty
+  bullets:
+  - 'Tversky & Kahneman (1974) named three heuristics: representativeness, availability, and anchoring
+    with adjustment'
+  - Heuristics are economical and usually effective, but they produce systematic, predictable errors
+  - Biases are identified as departures from probability theory, Bayesian inference, or regression logic
+  - 'Later reframing: people answer an easier question by substituting an attribute that comes more readily
+    to mind'
+  speaker_notes: The 1974 paper is the origin of the heuristics-and-biases program. Kahneman (2003) recasts
+    heuristics as attribute substitution, which is useful for the Lecture 3 discussion of when System
+    2 should override.
+  purpose: Heuristics-and-biases program (Tversky & Kahneman, 1974).
+  citations:
+  - source_id: source-ae88dbe50606
+    label: 'Tversky & Kahneman 1974, Judgment under uncertainty: Heuristics and biases'
+    url: null
+    line_start: 12
+    line_end: 12
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 2010
+    line_end: 2050
+- id: slide-356023302c01
+  archived: false
+  layout: bullets
+  title: Representativeness and Conjunction
+  bullets:
+  - 'Representativeness: judge probability by how well an object or event resembles a class'
+  - A detailed, coherent story can seem more probable than a broader category it belongs to
+  - 'Conjunction error: P(A and B) judged higher than P(A), which violates the monotonicity of probability'
+  - Resemblance is not likelihood; always check the base rate of the broader category
+  speaker_notes: Ask students to rank a detailed scenario against the broader category it belongs to,
+    then compare with the probability rules. Kahneman (2003) notes that probability judgments can violate
+    monotonicity.
+  purpose: Why a specific story can seem more likely than a general one.
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 2030
+    line_end: 2040
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 2285
+    line_end: 2290
+  - source_id: source-ae88dbe50606
+    label: 'Tversky & Kahneman 1974, Judgment under uncertainty: Heuristics and biases'
+    url: null
+    line_start: 12
+    line_end: 12
+- id: slide-af57e5d2d5d0
+  archived: false
+  layout: bullets
+  title: Availability
+  bullets:
+  - 'Availability: frequency and plausibility are judged by how easily examples come to mind'
+  - Vivid, recent, or emotionally salient events feel more likely than their actual frequency warrants
+  - Kahneman (2003) lists overestimates of easily recalled events among the systematic biases
+  - Recent anomalies on a dashboard can shape frequency judgments more than the historical record
+  speaker_notes: 'Tie this to data science: a single alarming alert can drive a frequency judgment. The
+    dashboard example is an instructional application, not a finding from the Sources.'
+  purpose: Why vivid or recent events feel more likely.
+  citations:
+  - source_id: source-ae88dbe50606
+    label: 'Tversky & Kahneman 1974, Judgment under uncertainty: Heuristics and biases'
+    url: null
+    line_start: 12
+    line_end: 12
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 1943
+    line_end: 1951
+- id: slide-6b5ec3ba2fcf
+  archived: false
+  layout: bullets
+  title: Anchoring and Adjustment
+  bullets:
+  - 'Anchoring: an initial value, even an arbitrary one, pulls later numerical estimates toward it'
+  - Adjustment away from the anchor is usually partial, so estimates stay near the starting point
+  - Randomized anchors shifted vignette answers by 22 percentage points (56% vs. 34%) in surgeons (Janssen
+    et al. 2021)
+  - Anchoring effects in valuation tasks are mixed across studies (Enke et al. 2021)
+  speaker_notes: Janssen et al. (2021) used randomized anchors and frames in a vignette study of 196 orthopaedic
+    surgeons. Enke et al. (2021) report that anchoring evidence in valuation tasks is mixed, so present
+    this as a robust pattern in some tasks rather than a universal law.
+  purpose: How an initial value biases later estimates.
+  citations:
+  - source_id: source-ae88dbe50606
+    label: 'Tversky & Kahneman 1974, Judgment under uncertainty: Heuristics and biases'
+    url: null
+    line_start: 12
+    line_end: 12
+  - source_id: source-7d6c46b3befd
+    label: Janssen et al. 2021, Cognitive biases in orthopaedic surgery (vignette study)
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-2efb0c9922df
+    label: 'Enke et al. 2021, Cognitive biases: Mistakes or missing stakes? (Rev. Econ. Stat.)'
+    url: null
+    line_start: 114
+    line_end: 114
+- id: slide-3db6d451cd6f
+  archived: false
+  layout: bullets
+  title: Base-Rate Neglect
+  bullets:
+  - 'Base-rate neglect: ignoring how common a condition is when judging a test result'
+  - 'Example: 1% prevalence, 90% sensitivity, 9% false-positive rate gives only about 9% chance of illness
+    given a positive test'
+  - 'Janssen et al. (2021): 35–88% of surgeons gave base-rate-neglecting answers across three vignettes'
+  - High incentives reduced complete neglect versus normal incentives, but not versus no incentives (Enke
+    et al. 2021)
+  - 'Link & Raab (2021): expert beach volleyball players adapted to base rates across 1,300+ games'
+  speaker_notes: 'Work the Bayes example on the board: P(ill | positive) = 0.009 / (0.009 + 0.0891) ≈
+    0.092. The 1%, 90%, and 9% figures are illustrative teaching numbers, not taken from a Source. Janssen
+    et al. report 43%, 88%, and 35% neglect-consistent answers across their three base-rate vignettes.
+    Link & Raab argue that lab tests use single questions, while real decisions are sequential, so base-rate
+    use can look different in the field.'
+  purpose: Worked Bayes example using a diagnostic test.
+  citations:
+  - source_id: source-7d6c46b3befd
+    label: Janssen et al. 2021, Cognitive biases in orthopaedic surgery (vignette study)
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-2efb0c9922df
+    label: 'Enke et al. 2021, Cognitive biases: Mistakes or missing stakes? (Rev. Econ. Stat.)'
+    url: null
+    line_start: 228
+    line_end: 228
+  - source_id: source-673e21ea03de
+    label: Link & Raab 2021, Experts use base rates in real-world sequential decisions (beach volleyball)
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-7a49dcb72dca
+  archived: false
+  layout: bullets
+  title: Regression to the Mean
+  bullets:
+  - 'Regression to the mean: extreme results tend to be followed by less extreme ones'
+  - Noise produces many extreme outcomes, so part of any swing is not caused by a specific action
+  - Misreading regression as cause and effect over-credits praise or blame for the next result
+  - Kahneman (2003) lists nonregressive prediction among the systematic biases
+  speaker_notes: 'Use a simple example: a top-scoring team in one season tends to score closer to average
+    the next. The causal reading is the error. The Sources identify nonregressive prediction as a bias;
+    the worked illustration here is instructional.'
+  purpose: Misreading noisy performance as cause and effect.
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 1943
+    line_end: 1951
+- id: slide-721ea4ffbf04
+  archived: false
+  layout: bullets
+  title: Hot Hand and Pattern Seeking
+  bullets:
+  - 'Pattern seeking: people read streaks as signal, even in sequences generated by chance'
+  - Gilovich, Vallone & Tversky (1985) studied the misperception of random sequences in basketball
+  - Gigerenzer & Brighton (2009) cite this work within the heuristics literature
+  - Before modelling a streak, test it against a random-sequence baseline
+  - Miller & Sanjurjo (2018) revisit the hot-hand fallacy finding
+  speaker_notes: Present the hot hand as a contested case, not settled fact. The Sources confirm the Gilovich
+    et al. (1985) reference and list Miller & Sanjurjo (2018) in the references of Link & Raab; the reader
+    should consult those papers directly before making claims about the effect size. The data-science
+    takeaway (test against a random baseline before modelling) is instructional.
+  purpose: Finding patterns in random data.
+  citations:
+  - source_id: source-54f3cd9c1f33
+    label: Gigerenzer & Brighton 2009, Homo heuristicus
+    url: null
+    line_start: 69
+    line_end: 69
+  - source_id: source-673e21ea03de
+    label: Link & Raab 2021, Experts use base rates in real-world sequential decisions (beach volleyball)
+    url: null
+    line_start: 163
+    line_end: 163
+- id: slide-925b5c13f530
+  archived: false
+  layout: bullets
+  title: Overconfidence in Predictions
+  bullets:
+  - 'Calibration: stated confidence should match accuracy; 80% confidence means right about 80% of the
+    time'
+  - Overconfidence is common across domains, from surgery to strategy (Egan 2025)
+  - 'Ivanov et al. (2000): clinicians overestimated operative mortality (7.6% vs. 6.3% model) and ICU
+    stays'
+  - Narrow intervals are a warning sign; widen them until coverage matches stated confidence
+  speaker_notes: Ivanov et al. (2000) compared nine clinicians with a logistic regression model on 100
+    CABG cases. Clinicians' estimates were similar with or without access to the predictive rule, and
+    they overestimated both outcomes. Egan (2025) proposes calibration as the outcome-focused benchmark.
+  purpose: Narrow intervals and inflated confidence.
+  citations:
+  - source_id: source-0c230ae5775c
+    label: 'Egan 2025, Stay calibrated: a practical guide to debiasing decision-making (Behavioural Insights
+      Team)'
+    url: null
+    line_start: 11
+    line_end: 19
+  - source_id: source-b2af78b9bd5e
+    label: Ivanov et al. 2000, Clinicians vs. statistical model for CABG outcomes (Ann Thorac Surg)
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 1943
+    line_end: 1951
+- id: slide-3b624a9c1128
+  archived: false
+  layout: bullets
+  title: 'Demo: Calibration Check'
+  bullets:
+  - Each student writes 80% intervals for ten numeric quantities, then scores how many contain the truth
+  - A hit rate near 80% signals good calibration; a lower rate signals overconfidence
+  - Compare group results and discuss which misses were predictable before seeing the answers
+  - Calibration is trainable through feedback and repetition, not innate skill (Egan 2025)
+  speaker_notes: Choose quantities students can estimate roughly but not look up in advance. Record the
+    hit rate per student and for the class. Egan (2025) argues calibration can be built through habit,
+    feedback, and repetition.
+  purpose: Students estimate quantities and score their own calibration.
+  citations:
+  - source_id: source-0c230ae5775c
+    label: 'Egan 2025, Stay calibrated: a practical guide to debiasing decision-making (Behavioural Insights
+      Team)'
+    url: null
+    line_start: 11
+    line_end: 21
+- id: slide-6bb8e3fb1b06
+  archived: false
+  layout: bullets
+  title: Biases in Data Work
+  bullets:
+  - Narrative detail can lead clinicians to trust their own judgement over a validated statistical rule
+  - With or without the rule, clinicians' estimates were similar and overestimated risk (Ivanov et al.
+    2000)
+  - Confirmation-bias answers ranged from 11% to 51% across five vignettes (Janssen et al. 2021)
+  - 'Ask: which data choices were made after seeing the outcome?'
+  speaker_notes: Label leakage and cherry-picked metrics are the core data-work examples in the plan,
+    but no admitted Source covers them yet; present them as instructor examples until a source is added.
+    Narratives over numbers is supported by Ivanov et al. (2000), where clinicians had extra narrative
+    information that the model lacked.
+  purpose: Label leakage, cherry-picked metrics, and narratives over numbers.
+  citations:
+  - source_id: source-b2af78b9bd5e
+    label: Ivanov et al. 2000, Clinicians vs. statistical model for CABG outcomes (Ann Thorac Surg)
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-7d6c46b3befd
+    label: Janssen et al. 2021, Cognitive biases in orthopaedic surgery (vignette study)
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-4f46653159fc
+  archived: false
+  layout: bullets
+  title: Which Biases Matter Most
+  bullets:
+  - Prioritize by decision stakes, frequency, and whether a model takes a probability as input
+  - Higher incentives helped most on the cognitive reflection test and little on harder tasks (Enke et
+    al. 2021)
+  - Base-rate neglect appeared in 35–88% of answers across Janssen et al.'s vignettes
+  - Experts in sequential real-world decisions do use base rates (Link & Raab 2021)
+  - Prioritize biases that a model or a process can correct, since clinicians' estimates were not fixed
+    by a rule
+  speaker_notes: 'Stakes alone do not remove bias: Enke et al. (2021) find very high incentives do not
+    reduce most biases relative to standard incentives. The prioritization criteria on the slide are instructional.
+    Use the sequential-decision evidence to argue that the severity of a bias depends on the decision
+    environment.'
+  purpose: Prioritizing biases for model-based decisions.
+  citations:
+  - source_id: source-2efb0c9922df
+    label: 'Enke et al. 2021, Cognitive biases: Mistakes or missing stakes? (Rev. Econ. Stat.)'
+    url: null
+    line_start: 215
+    line_end: 240
+  - source_id: source-7d6c46b3befd
+    label: Janssen et al. 2021, Cognitive biases in orthopaedic surgery (vignette study)
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-673e21ea03de
+    label: Link & Raab 2021, Experts use base rates in real-world sequential decisions (beach volleyball)
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-b2af78b9bd5e
+    label: Ivanov et al. 2000, Clinicians vs. statistical model for CABG outcomes (Ann Thorac Surg)
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-0aaac5cf33e2
+  archived: false
+  layout: bullets
+  title: Lecture 2 Summary
+  bullets:
+  - Heuristics are economical and usually effective, but they produce predictable, systematic errors
+  - Anchors, base rates, and availability each distort numerical judgement in a characteristic way
+  - Calibration gives an outcome-focused benchmark for overconfidence
+  - 'Discussion: which bias in your own modelling workflow is most likely to go unnoticed?'
+  - 'Discussion: when should a statistical rule override expert judgement, and when not?'
+  speaker_notes: 'Close by linking each heuristic to a measurable signature: a bias in an estimate, a
+    base-rate miss, or a calibration gap. The two discussion questions set up Lecture 3.'
+  purpose: Key takeaways and discussion questions.
+  citations:
+  - source_id: source-ae88dbe50606
+    label: 'Tversky & Kahneman 1974, Judgment under uncertainty: Heuristics and biases'
+    url: null
+    line_start: 12
+    line_end: 12
+  - source_id: source-0c230ae5775c
+    label: 'Egan 2025, Stay calibrated: a practical guide to debiasing decision-making (Behavioural Insights
+      Team)'
+    url: null
+    line_start: 11
+    line_end: 19
+- id: slide-dd48382c7ccb
+  archived: false
+  layout: bullets
+  title: 'Preview: Where Intuition Goes Wrong'
+  bullets:
+  - Lecture 3 applies these biases to framing, loss aversion, and automation
+  - It covers structured elicitation and decision analysis as System 2 checks
+  - 'Carry forward: which bias a model can correct, and which needs a process fix'
+  speaker_notes: Tversky & Kahneman (1974) note that a better understanding of these heuristics could
+    improve judgments and decisions; Lecture 3 tests that claim with debiasing tools and case studies.
+  purpose: Bridge to Lecture 3 on decisions and correction.
+  citations:
+  - source_id: source-ae88dbe50606
+    label: 'Tversky & Kahneman 1974, Judgment under uncertainty: Heuristics and biases'
+    url: null
+    line_start: 12
+    line_end: 12

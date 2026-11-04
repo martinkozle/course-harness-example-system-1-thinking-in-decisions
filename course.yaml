@@ -15,16 +15,16 @@ lectures:
   title: Fast Thinking and Its Role in Decisions
   group: Lecture 1
   source_focus: null
-  presentation_id: null
+  presentation_id: presentation-10f1da9089d4
 - id: lecture-dcd96db2cb56
   title: Heuristics and Systematic Biases
   group: Lecture 2
   source_focus: null
-  presentation_id: null
+  presentation_id: presentation-d97924b64a86
 - id: lecture-4a81894ca7b5
   title: Where Intuition Goes Wrong in Decisions, and How to Correct It
   group: Lecture 3
   source_focus: null
-  presentation_id: null
-template_profile_id: null
-template_profile_version: null
+  presentation_id: presentation-9a80c4c3c215
+template_profile_id: tpl-6dbe3d13f110
+template_profile_version: 3

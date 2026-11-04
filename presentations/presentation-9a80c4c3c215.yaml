@@ -1,0 +1,125 @@
+schema_version: 1
+id: presentation-9a80c4c3c215
+lecture_id: lecture-4a81894ca7b5
+slides:
+- id: slide-4648de1ddb5d
+  archived: false
+  layout: title
+  title: Where Intuition Goes Wrong
+  subtitle: 'Lecture 3 of 3: System 1 Thinking in Decisions'
+  speaker_notes: null
+  purpose: Introduce the lecture objectives.
+  citations: []
+- id: slide-514d9605b9aa
+  archived: false
+  layout: bullets
+  title: Framing and Choice Architecture
+  bullets: []
+  speaker_notes: null
+  purpose: How presentation changes choices with the same underlying options.
+  citations: []
+- id: slide-a7f120ab896f
+  archived: false
+  layout: bullets
+  title: Loss Aversion and Prospect Theory
+  bullets: []
+  speaker_notes: null
+  purpose: Value judgments that depart from expected value.
+  citations: []
+- id: slide-0dfc0943c2ea
+  archived: false
+  layout: bullets
+  title: 'Risk Attitudes: Intuitive vs. Modeled Utility'
+  bullets: []
+  speaker_notes: null
+  purpose: Comparing intuitive risk choices with explicit utility models.
+  citations: []
+- id: slide-993fc4675bfe
+  archived: false
+  layout: bullets
+  title: Automation Bias
+  bullets: []
+  speaker_notes: null
+  purpose: Over-trusting model outputs.
+  citations: []
+- id: slide-75dedd59d200
+  archived: false
+  layout: bullets
+  title: Algorithm Aversion
+  bullets: []
+  speaker_notes: null
+  purpose: Under-trusting models after a visible error (Dietvorst et al.).
+  citations: []
+- id: slide-fe276e359bc4
+  archived: false
+  layout: bullets
+  title: Structured Elicitation
+  bullets: []
+  speaker_notes: null
+  purpose: Priors, ranges, and calibration training.
+  citations: []
+- id: slide-9ae56fa8dd27
+  archived: false
+  layout: bullets
+  title: 'Decision Analysis: System 2 Check'
+  bullets: []
+  speaker_notes: null
+  purpose: Expected value and sensitivity analysis as deliberate tests.
+  citations: []
+- id: slide-e5508d481c49
+  archived: false
+  layout: bullets
+  title: Debiasing Tools
+  bullets: []
+  speaker_notes: null
+  purpose: Pre-mortems, checklists, and consider-the-opposite.
+  citations: []
+- id: slide-d16fb38defbe
+  archived: false
+  layout: bullets
+  title: 'Case Study: With and Without Review'
+  bullets: []
+  speaker_notes: null
+  purpose: A model-driven decision compared with and without structured review.
+  citations: []
+- id: slide-4e22c33c3a2a
+  archived: false
+  layout: bullets
+  title: Designing Decision Systems
+  bullets: []
+  speaker_notes: null
+  purpose: Defaults, displays, and friction that account for System 1.
+  citations: []
+- id: slide-a9ef4529181e
+  archived: false
+  layout: bullets
+  title: 'Course Synthesis: A Decision-Audit Framework'
+  bullets: []
+  speaker_notes: null
+  purpose: Combining the course into one audit checklist.
+  citations: []
+- id: slide-a2f258e17a41
+  archived: false
+  layout: closing
+  title: Closing and Next Steps
+  text: Before a consequential decision, check the base rate, record your confidence, and ask what would
+    prove you wrong.
+  speaker_notes: 'Recap the habits from this course. Base rates and outside views counter the tendency
+    to focus on the specific case. Calibration checks compare stated confidence with outcomes over time,
+    so overconfidence becomes visible (Egan, 2025). Kahneman (2003) explains why the System 2 check matters:
+    System 1 errors often pass unexamined unless deliberate monitoring catches them. Ask students to name
+    one decision from their own work that they would check this week, and which habit they would apply
+    first. Note that the pre-mortem technique is widely recommended but not yet covered by an admitted
+    source in this course; cite a primary source before using it as evidence.'
+  purpose: Close the course and point to quizzes and further reading.
+  citations:
+  - source_id: source-0c230ae5775c
+    label: 'Egan 2025, Stay calibrated: a practical guide to debiasing decision-making'
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: null
+    line_end: null

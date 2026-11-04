@@ -20,3 +20,96 @@ sources:
   source_version_id: 9c9f733735c4e2c819fa0bb7ddfdf8e79a1eec05e160ed5419fc85e0a194c784
   label: Gigerenzer & Brighton 2009, Homo heuristicus
   admitted_at: '2026-11-04T21:04:25.437297+00:00'
+- id: source-ae81aaef05f9
+  resource_id: resource-8b3db9bf1099
+  source_version_id: ca71dd6424e43f1d90f0858bc68283bab72677102ccea0bd9641cb824c1415ad
+  label: Dietvorst, Simmons & Massey 2015, Algorithm aversion
+  admitted_at: '2026-11-04T21:05:51.020347+00:00'
+- id: source-c4bd70e31d8d
+  resource_id: resource-2dde4358d502
+  source_version_id: 35204150366cc57c4ccb794b235bcae5f039f6c684c72967798c3d3dbcd914b0
+  label: Kahneman 2003, A perspective on judgment and choice
+  admitted_at: '2026-11-04T21:06:24.722648+00:00'
+  representation: local-quick
+  locator:
+    url: https://pages.ucsd.edu/~mckenzie/Kahneman2003AmPsych.pdf
+- id: source-3f45d99f2c43
+  resource_id: resource-f3a706235f28
+  source_version_id: 88953c82ffdf1250d3ec6443079beb698c570bd62fbfdc57f1262937f4787014
+  label: 2026 preprint, Are AI decision models biased? A case study of Jev
+  admitted_at: '2026-11-04T21:08:19.847109+00:00'
+  representation: local-quick
+  locator:
+    url: https://arxiv.org/html/2610.19619
+    arxiv_id: '2610.19619'
+- id: source-d40e2099f31e
+  resource_id: resource-3062bf482d0a
+  source_version_id: a837ab7a3061bfe5330d81d575fab5eb79a76fc1dd14b489d751b1d48f199053
+  label: Brady et al. 2025, Dual-process theory and decision-making in LLMs (Nature Reviews Psychology)
+  admitted_at: '2026-11-04T21:08:23.384624+00:00'
+  representation: local-quick
+  locator:
+    url: https://doi.org/10.1038/s44159-025-00506-1
+    doi: 10.1038/s44159-025-00506-1
+- id: source-42268f22cf38
+  resource_id: resource-76be1d54f613
+  source_version_id: def75371a070f51ec6315e93355df8c0ea8c5f3d4886f81d65c273de7b97cd3b
+  label: Cheung, Maier & Lieder 2025, LLMs show amplified cognitive biases in moral decision-making (PNAS)
+  admitted_at: '2026-11-04T21:08:24.614411+00:00'
+- id: source-a8a594abd5ad
+  resource_id: resource-aa45e00b0eb9
+  source_version_id: bbad08d78747175b4a111dda59c2718576bbca60dceb01dd010519fe313d15df
+  label: Zuo 2026, Patient cognitive bias in LLM-supported health consultations (JMIR)
+  admitted_at: '2026-11-04T21:08:26.092856+00:00'
+- id: source-0c230ae5775c
+  resource_id: resource-e9721b525457
+  source_version_id: 0266848908bba09004b0db6ccb79099980e9ee412b0539c5e97114fef6d48825
+  label: 'Egan 2025, Stay calibrated: a practical guide to debiasing decision-making (Behavioural Insights
+    Team)'
+  admitted_at: '2026-11-04T21:10:08.912997+00:00'
+  representation: local-quick
+  locator:
+    url: https://www.bi.team/publications/stay-calibrated-a-practical-guide-to-debiasing-decision-making/
+- id: source-7d6c46b3befd
+  resource_id: resource-6657297304fa
+  source_version_id: 0a83cbed809b7916f2ccf3b934f56b0a82cdf0521d46ae2df2ccf1121bd34d79
+  label: Janssen et al. 2021, Cognitive biases in orthopaedic surgery (vignette study)
+  admitted_at: '2026-11-04T21:10:09.746553+00:00'
+  representation: local-quick
+  locator:
+    url: https://pure.amsterdamumc.nl/en/publications/cognitive-biases-in-orthopaedic-surgery/
+- id: source-673e21ea03de
+  resource_id: resource-cdee4ce5a9ba
+  source_version_id: 76f33536596a1a94399a87229db2e644865eb14bbe825699f3e58a80c450be34
+  label: Link & Raab 2021, Experts use base rates in real-world sequential decisions (beach volleyball)
+  admitted_at: '2026-11-04T21:10:12.929240+00:00'
+- id: source-2efb0c9922df
+  resource_id: resource-7cbb91cfd5b7
+  source_version_id: 0be99d31b23d97275721a7685fac02cbd0b483880579a740e7eaca7a2e1b3ecc
+  label: 'Enke et al. 2021, Cognitive biases: Mistakes or missing stakes? (Rev. Econ. Stat.)'
+  admitted_at: '2026-11-04T21:10:13.512735+00:00'
+- id: source-b2af78b9bd5e
+  resource_id: resource-fb370410dc3c
+  source_version_id: 1cf0896681970deb8aa4bc412b36c1de6e2680427d735ef3b4afee0aa9c524ea
+  label: Ivanov et al. 2000, Clinicians vs. statistical model for CABG outcomes (Ann Thorac Surg)
+  admitted_at: '2026-11-04T21:10:15.079564+00:00'
+- id: source-d19a8f84cb71
+  resource_id: resource-a235e2ef577e
+  source_version_id: 669bcb6bab5b19122c57842bc4af8ce0b38468976951a0129ccb298622c5fc98
+  label: Klein 2008, Performing a project premortem
+  admitted_at: '2026-11-04T21:14:39.843891+00:00'
+- id: source-e455455d862a
+  resource_id: resource-d432b3875d69
+  source_version_id: c88abb9907b26c9414595477dbb4f9cd9a0cb1ca6346013bcb9c522a3f78240d
+  label: Parasuraman & Manzey 2010, Complacency and bias in human use of automation
+  admitted_at: '2026-11-04T21:14:41.571988+00:00'
+- id: source-ee5342a32639
+  resource_id: resource-5fa5f9c8726c
+  source_version_id: 52fad8764356c44ffa98e126bf8356e39ebd5de205ee9b1f6b9407ab95906b96
+  label: Kretschmer 2006, Schachfiguren (Kramnik-Lautier, Monaco 1999), CC BY-SA 2.5, Wikimedia Commons
+  admitted_at: '2026-11-04T21:19:02.840814+00:00'
+- id: source-f7c2c9d816c0
+  resource_id: resource-4d40ddc96436
+  source_version_id: bcddb1a60bbecddd21b28827ae58342bd3dc060110f5e204a7e219580aee5e74
+  label: Kretschmer 2006, Schachfiguren (Kramnik-Lautier, Monaco 1999), CC BY-SA 2.5, Wikimedia Commons
+  admitted_at: '2026-11-04T21:19:40.125781+00:00'
