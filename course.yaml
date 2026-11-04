@@ -1,0 +1,30 @@
+schema_version: 1
+id: course-6fc01f525c14
+title: System 1 Thinking in Decisions
+audience: Master's students in data science, decision models class
+goals:
+- Build the dual-process framework and show that intuition is useful and often necessary.
+- Teach the main error patterns in judgment, with statistical grounding.
+- Connect biases to decision models and practical debiasing.
+outcomes:
+- Explain the dual-process view of fast, intuitive (System 1) and slow, deliberate (System 2) thinking.
+- Identify when intuition is reliable and when it produces systematic errors.
+- Recognize common biases in data-driven decisions and apply model-based corrections.
+lectures:
+- id: lecture-e176b7ccb941
+  title: Fast Thinking and Its Role in Decisions
+  group: Lecture 1
+  source_focus: null
+  presentation_id: null
+- id: lecture-dcd96db2cb56
+  title: Heuristics and Systematic Biases
+  group: Lecture 2
+  source_focus: null
+  presentation_id: null
+- id: lecture-4a81894ca7b5
+  title: Where Intuition Goes Wrong in Decisions, and How to Correct It
+  group: Lecture 3
+  source_focus: null
+  presentation_id: null
+template_profile_id: null
+template_profile_version: null

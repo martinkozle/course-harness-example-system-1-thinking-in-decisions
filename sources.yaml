@@ -1,0 +1,22 @@
+version: 1
+sources:
+- id: source-ae88dbe50606
+  resource_id: resource-f2fe825f4bda
+  source_version_id: 60e278523d446321735562d596a3fdff913554f16b9f260f615dc29f1af6c1ab
+  label: 'Tversky & Kahneman 1974, Judgment under uncertainty: Heuristics and biases'
+  admitted_at: '2026-11-04T21:04:24.342606+00:00'
+- id: source-2ecd078c536a
+  resource_id: resource-b7ef8acdde7b
+  source_version_id: b74456c72f63cb8d33dea453755556d37dfc7e118586216877053a2bc50eb81f
+  label: Kahneman & Klein 2009, Conditions for intuitive expertise
+  admitted_at: '2026-11-04T21:04:24.663675+00:00'
+- id: source-3371e674a852
+  resource_id: resource-27ec10ef53cb
+  source_version_id: 1626cbe8d3504e70e98b8761382542cb478d12c5d97c1423826786386d3035a8
+  label: Evans & Stanovich 2013, Dual-process theories of higher cognition
+  admitted_at: '2026-11-04T21:04:25.006243+00:00'
+- id: source-54f3cd9c1f33
+  resource_id: resource-283c8e994304
+  source_version_id: 9c9f733735c4e2c819fa0bb7ddfdf8e79a1eec05e160ed5419fc85e0a194c784
+  label: Gigerenzer & Brighton 2009, Homo heuristicus
+  admitted_at: '2026-11-04T21:04:25.437297+00:00'
