@@ -1,0 +1,164 @@
+schema_version: 1
+lecture_id: lecture-dcd96db2cb56
+questions:
+- id: question-9610e60e7cb6
+  prompt: A forecaster says "I am 80% sure" on many predictions, but only 60% of those predictions come
+    true. Which description fits best?
+  options:
+  - id: option-6aec5722c070
+    text: Well calibrated, because 60% is close to 80%
+    correct: false
+    explanation: 'Calibration means stated confidence matches the observed hit rate. Here the gap is 20
+      points, so this is not calibrated. Egan (2025) defines calibration as aligning confidence with accuracy:
+      80% confidence should mean being right about 80% of the time.'
+    citations: []
+  - id: option-369f5baff6aa
+    text: Overconfident, because stated confidence exceeds the observed hit rate
+    correct: true
+    explanation: Stated confidence (80%) is higher than the hit rate (60%), which is the pattern of overconfidence.
+      Egan (2025) notes that overconfidence is common across domains and leads to poor outcomes.
+    citations: []
+  - id: option-8e5b396c9471
+    text: Underconfident, because the forecaster is right more often than not
+    correct: false
+    explanation: Underconfidence would mean the hit rate is higher than stated confidence, for example
+      80% confidence with 95% accuracy. Being right more than half the time does not make the forecaster
+      underconfident when the stated level is 80%.
+    citations: []
+  - id: option-4ab81a7ec05f
+    text: Unbiased, because calibration only concerns the average of many predictions
+    correct: false
+    explanation: Calibration does concern many predictions, but it compares stated confidence to hit rate
+      within each confidence level. Averaging away the gap would hide the overconfidence. Egan (2025)
+      frames calibration as an outcome-focused benchmark of exactly this comparison.
+    citations: []
+  citations:
+  - source_id: source-0c230ae5775c
+    label: 'Egan 2025, Stay calibrated: a practical guide to debiasing decision-making (Behavioural Insights
+      Team)'
+    url: null
+    line_start: 11
+    line_end: 19
+- id: question-b891316dcdb3
+  prompt: In Ivanov et al. (2000), nine clinicians estimated outcomes after coronary bypass surgery, with
+    or without access to a predictive rule. Which result did the study report?
+  options:
+  - id: option-7e10c1c2a35b
+    text: Clinicians' estimates were more accurate than the model's, because they used clinical intuition
+    correct: false
+    explanation: The study reported that clinicians significantly overestimated both operative mortality
+      and prolonged ICU stay relative to the statistical model. Clinicians' intuition did not beat the
+      model in this comparison.
+    citations: []
+  - id: option-29bb9f97f728
+    text: Clinicians matched the model exactly once they had the predictive rule
+    correct: false
+    explanation: The study found clinicians' estimates were similar with or without access to the rule,
+      so the rule did not change their estimates to match the model.
+    citations: []
+  - id: option-27810aedfebc
+    text: Clinicians' estimates were similar with or without the rule and overestimated the probability
+      of operative mortality and ICU stay
+    correct: true
+    explanation: 'This matches the reported result: clinicians overestimated operative mortality (7.6%
+      vs. 6.3% for the model) and ICU stays over 48 hours (28% vs. 25%), whether or not they had the predictive
+      rule.'
+    citations: []
+  - id: option-ee38d339b6d4
+    text: Clinicians underestimated operative mortality, which made their estimates safer
+    correct: false
+    explanation: The study reported overestimation, not underestimation, of operative mortality (7.6%
+      clinicians vs. 6.3% model). Overestimating risk was the systematic error the study found.
+    citations: []
+  citations:
+  - source_id: source-b2af78b9bd5e
+    label: Ivanov et al. 2000, Clinicians vs. statistical model for CABG outcomes (Ann Thorac Surg)
+    url: null
+    line_start: null
+    line_end: null
+- id: question-cb4b0287bbae
+  prompt: A model's input says a condition affects 1% of patients. A test detects 90% of true cases, and
+    9% of healthy patients test positive. For a patient who tests positive, what is the chance of having
+    the condition?
+  options:
+  - id: option-9093df18ea70
+    text: About 9%, because most positive results come from the large healthy group
+    correct: true
+    explanation: Positives come from 0.9 x 1% = 0.009 of patients who are ill and 0.09 x 99% = 0.0891
+      of patients who are healthy. So P(ill | positive) = 0.009 / (0.009 + 0.0891) ≈ 9%. The base rate
+      drives the result, which is the point of the worked Bayes example.
+    citations: []
+  - id: option-907c0681f723
+    text: About 90%, because the test detects 90% of true cases
+    correct: false
+    explanation: This is the sensitivity, P(positive | ill). It ignores the base rate and is the base-rate
+      neglect error that Janssen et al. (2021) and Enke et al. (2021) document. The question asks P(ill
+      | positive), which is much lower here.
+    citations: []
+  - id: option-6fd1ff72f9ca
+    text: About 50%, because a positive result is equally likely to be right or wrong
+    correct: false
+    explanation: A 50% answer assumes the two groups are equally likely, which ignores the 1% base rate.
+      Enke et al. (2021) report that many subjects completely ignore the base rate, and the correct posterior
+      depends on it.
+    citations: []
+  - id: option-cc54d50ca0c7
+    text: About 1%, because the condition is rare in the population
+    correct: false
+    explanation: The 1% is the prior probability before the test. A positive result updates it upward,
+      to about 9% here. Ignoring the test result entirely is also an error.
+    citations: []
+  citations:
+  - source_id: source-2efb0c9922df
+    label: 'Enke et al. 2021, Cognitive biases: Mistakes or missing stakes? (Rev. Econ. Stat.)'
+    url: null
+    line_start: 228
+    line_end: 228
+  - source_id: source-7d6c46b3befd
+    label: Janssen et al. 2021, Cognitive biases in orthopaedic surgery (vignette study)
+    url: null
+    line_start: null
+    line_end: null
+- id: question-aa6ded08bf9f
+  prompt: According to the heuristics-and-biases account, what does anchoring and adjustment imply about
+    a numerical estimate that starts from an initial value?
+  options:
+  - id: option-91d34ff87de0
+    text: The estimate is only influenced if the initial value is informative about the answer
+    correct: false
+    explanation: Anchoring occurs even with arbitrary information. Enke et al. (2021) note that arbitrary
+      initial information can become an anchor for later decisions, with only partial adjustment (Tversky
+      & Kahneman, 1974).
+    citations: []
+  - id: option-2a6562931ada
+    text: The estimate moves fully to the correct value once the person has adjusted
+    correct: false
+    explanation: If adjustment were complete, anchoring would not produce systematic errors. Tversky &
+      Kahneman (1974) describe the errors as arising because adjustment is typically insufficient.
+    citations: []
+  - id: option-d12dece80baf
+    text: The estimate is more accurate when the anchor is random, because randomness cancels out
+    correct: false
+    explanation: Random anchors still bias estimates in the direction of the anchor. Enke et al. (2021)
+      use random anchors in their experiment precisely to create an uninformative starting point that
+      still influences answers.
+    citations: []
+  - id: option-84db0ff04a4b
+    text: The estimate is pulled toward the initial value, and adjustment away from it is usually partial
+    correct: true
+    explanation: 'Tversky & Kahneman (1974) describe adjustment from an anchor as a heuristic that is
+      economical and often effective, but which leads to systematic errors when the adjustment is insufficient.
+      Enke et al. (2021) describe the same pattern: arbitrary information becomes a starting point, with
+      only partial adjustment.'
+    citations: []
+  citations:
+  - source_id: source-ae88dbe50606
+    label: 'Tversky & Kahneman 1974, Judgment under uncertainty: Heuristics and biases'
+    url: null
+    line_start: 12
+    line_end: 12
+  - source_id: source-2efb0c9922df
+    label: 'Enke et al. 2021, Cognitive biases: Mistakes or missing stakes? (Rev. Econ. Stat.)'
+    url: null
+    line_start: 114
+    line_end: 114

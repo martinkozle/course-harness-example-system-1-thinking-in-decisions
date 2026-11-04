@@ -6,120 +6,292 @@ slides:
   archived: false
   layout: title
   title: Where Intuition Goes Wrong
-  subtitle: 'Lecture 3 of 3: System 1 Thinking in Decisions'
-  speaker_notes: null
+  subtitle: Framing, loss aversion, automation bias, and how to check System 1
+  speaker_notes: 'Lecture 3 moves from what intuition does well to the predictable ways it fails in decisions,
+    and how models and structured review correct those failures. Frame it as a question: when should we
+    trust a fast judgment, and what should we check before acting on it?'
   purpose: Introduce the lecture objectives.
-  citations: []
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: null
+    line_end: null
 - id: slide-514d9605b9aa
   archived: false
   layout: bullets
   title: Framing and Choice Architecture
-  bullets: []
-  speaker_notes: null
+  bullets:
+  - Logically identical options can produce different choices depending on how they are described
+  - '"200 saved" drew a majority for the sure program; "400 die" drew a majority for the gamble'
+  - Certain outcomes are overweighted, so certain saving and certain deaths feel very different
+  - 'Framing effects appear in experts too: 77% vs. 61% in orthopaedic vignettes'
+  speaker_notes: Walk through the Asian disease problem. Programs A and A' describe the same outcomes
+    in different words, yet preferences reversed. The Janssen vignette study shows the same kind of framing
+    effect in practicing surgeons.
   purpose: How presentation changes choices with the same underlying options.
-  citations: []
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 993
+    line_end: 1010
+  - source_id: source-7d6c46b3befd
+    label: Janssen et al. 2021, Cognitive biases in orthopaedic surgery
+    url: null
+    line_start: null
+    line_end: null
 - id: slide-a7f120ab896f
   archived: false
   layout: bullets
   title: Loss Aversion and Prospect Theory
-  bullets: []
-  speaker_notes: null
+  bullets:
+  - Prospect theory's value function is kinked at a reference point and steeper for losses
+  - Most people reject a 50/50 gamble to win $150 or lose $100
+  - 'Endowment effect: selling prices often exceed buying prices by a factor of 2 or more'
+  - Loss aversion also contributes to status-quo bias
+  speaker_notes: Loss aversion means outcomes are evaluated relative to a reference point, with losses
+    weighted more heavily than equal gains. The endowment effect and status-quo bias are the everyday
+    consequences.
   purpose: Value judgments that depart from expected value.
-  citations: []
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 1381
+    line_end: 1569
 - id: slide-0dfc0943c2ea
   archived: false
   layout: bullets
   title: 'Risk Attitudes: Intuitive vs. Modeled Utility'
-  bullets: []
-  speaker_notes: null
+  bullets:
+  - Intuition favors sure gains and accepts risk to avoid sure losses
+  - The 50/50 gamble to win $150 or lose $100 has expected value +$25, yet most people reject it
+  - An explicit utility model makes the reference point and value curvature visible
+  - Test a model's utility assumptions against observed choices before trusting its verdict
+  speaker_notes: Contrast what people choose with what expected value recommends. The gap is not random
+    noise; it reflects the value function. A modeled utility makes the assumption explicit so it can be
+    questioned.
   purpose: Comparing intuitive risk choices with explicit utility models.
-  citations: []
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 993
+    line_end: 1569
 - id: slide-993fc4675bfe
   archived: false
   layout: bullets
   title: Automation Bias
-  bullets: []
-  speaker_notes: null
+  bullets:
+  - Automation bias produces omission and commission errors when decision aids are imperfect
+  - It occurs in naive and expert users and is not prevented by training or instructions
+  - Attention is central; it overlaps with complacency under multi-task load
+  - Uncritical reliance on LLM advice could amplify human biases
+  speaker_notes: Automation bias is over-trust in model output. The Parasuraman and Manzey review ties
+    it to attention, so checking the model requires deliberate attention, not only more training. The
+    Cheung et al. PNAS study shows the same risk with LLM advice on moral dilemmas.
   purpose: Over-trusting model outputs.
-  citations: []
+  citations:
+  - source_id: source-e455455d862a
+    label: Parasuraman & Manzey 2010, Complacency and bias in human use of automation
+    url: null
+    line_start: 12
+    line_end: 12
+  - source_id: source-42268f22cf38
+    label: Cheung, Maier & Lieder 2025, LLMs show amplified cognitive biases in moral decision-making
+    url: null
+    line_start: null
+    line_end: null
 - id: slide-75dedd59d200
   archived: false
   layout: bullets
   title: Algorithm Aversion
-  bullets: []
-  speaker_notes: null
+  bullets:
+  - Forecasters often chose a human over a statistical algorithm that predicted more accurately
+  - After seeing the algorithm err, people lost confidence in it faster than in a human
+  - Aversion persisted even among people who saw the algorithm outperform a human
+  - Over-trust and under-trust both produce costly decisions
+  speaker_notes: 'Dietvorst et al. show that people abandon algorithms after a visible error, even when
+    the algorithm was better overall. Pair this with automation bias: the same model can be over-trusted
+    or under-trusted depending on recent experience.'
   purpose: Under-trusting models after a visible error (Dietvorst et al.).
-  citations: []
+  citations:
+  - source_id: source-ae81aaef05f9
+    label: Dietvorst, Simmons & Massey 2015, Algorithm aversion
+    url: null
+    line_start: 1
+    line_end: 6
 - id: slide-fe276e359bc4
   archived: false
   layout: bullets
   title: Structured Elicitation
-  bullets: []
-  speaker_notes: null
+  bullets:
+  - 'Calibrated means: if you say 80% sure, you are right about 80% of the time'
+  - Overconfidence is rampant, in domains from surgery to strategy
+  - Calibration is trainable through habit, feedback, and repetition
+  - Subjective experience is not a reliable indicator of judgment accuracy
+  speaker_notes: Have learners write a probability or range before seeing any model output, then compare
+    with the outcome. This makes priors explicit and gives feedback on calibration.
   purpose: Priors, ranges, and calibration training.
-  citations: []
-- id: slide-9ae56fa8dd27
-  archived: false
-  layout: bullets
-  title: 'Decision Analysis: System 2 Check'
-  bullets: []
-  speaker_notes: null
-  purpose: Expected value and sensitivity analysis as deliberate tests.
-  citations: []
-- id: slide-e5508d481c49
-  archived: false
-  layout: bullets
-  title: Debiasing Tools
-  bullets: []
-  speaker_notes: null
-  purpose: Pre-mortems, checklists, and consider-the-opposite.
-  citations: []
-- id: slide-d16fb38defbe
-  archived: false
-  layout: bullets
-  title: 'Case Study: With and Without Review'
-  bullets: []
-  speaker_notes: null
-  purpose: A model-driven decision compared with and without structured review.
-  citations: []
-- id: slide-4e22c33c3a2a
-  archived: false
-  layout: bullets
-  title: Designing Decision Systems
-  bullets: []
-  speaker_notes: null
-  purpose: Defaults, displays, and friction that account for System 1.
-  citations: []
-- id: slide-a9ef4529181e
-  archived: false
-  layout: bullets
-  title: 'Course Synthesis: A Decision-Audit Framework'
-  bullets: []
-  speaker_notes: null
-  purpose: Combining the course into one audit checklist.
-  citations: []
-- id: slide-a2f258e17a41
-  archived: false
-  layout: closing
-  title: Closing and Next Steps
-  text: Before a consequential decision, check the base rate, record your confidence, and ask what would
-    prove you wrong.
-  speaker_notes: 'Recap the habits from this course. Base rates and outside views counter the tendency
-    to focus on the specific case. Calibration checks compare stated confidence with outcomes over time,
-    so overconfidence becomes visible (Egan, 2025). Kahneman (2003) explains why the System 2 check matters:
-    System 1 errors often pass unexamined unless deliberate monitoring catches them. Ask students to name
-    one decision from their own work that they would check this week, and which habit they would apply
-    first. Note that the pre-mortem technique is widely recommended but not yet covered by an admitted
-    source in this course; cite a primary source before using it as evidence.'
-  purpose: Close the course and point to quizzes and further reading.
   citations:
   - source_id: source-0c230ae5775c
     label: 'Egan 2025, Stay calibrated: a practical guide to debiasing decision-making'
     url: null
     line_start: null
     line_end: null
+  - source_id: source-2ecd078c536a
+    label: Kahneman & Klein 2009, Conditions for intuitive expertise
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-9ae56fa8dd27
+  archived: false
+  layout: bullets
+  title: 'Decision Analysis: System 2 Check'
+  bullets:
+  - Intuition is trustworthy only where the environment is predictable and learnable
+  - Expert athletes used base rates in sequential play, unlike single-question lab tasks
+  - Test an intuitive pick with expected value and sensitivity analysis
+  - Ask whether the choice flips when a key estimate moves within its plausible range
+  speaker_notes: Kahneman and Klein set the boundary conditions for intuitive expertise. Link and Raab
+    show intuition working when the environment is sequential and expert users have experience. Use expected
+    value and sensitivity analysis as deliberate tests of the fast answer.
+  purpose: Expected value and sensitivity analysis as deliberate tests.
+  citations:
+  - source_id: source-2ecd078c536a
+    label: Kahneman & Klein 2009, Conditions for intuitive expertise
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-673e21ea03de
+    label: Link & Raab 2021, Experts use base rates in real-world sequential decisions
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-e5508d481c49
+  archived: false
+  layout: bullets
+  title: Debiasing Tools
+  bullets:
+  - 'Premortem: assume the project has failed, then list the reasons why'
+  - Calibration training with feedback improves confidence over time
+  - Very high incentives barely reduced four classic biases; none came close to debiasing
+  - Motivation alone is not a debiasing tool; add structure to the process
+  speaker_notes: 'The Enke et al. result is important: paying more does not fix judgment. Structured tools
+    such as premortems and feedback-based calibration training change the process itself.'
+  purpose: Pre-mortems, checklists, and consider-the-opposite.
+  citations:
+  - source_id: source-d19a8f84cb71
+    label: Klein 2008, Performing a project premortem
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-0c230ae5775c
+    label: 'Egan 2025, Stay calibrated: a practical guide to debiasing decision-making'
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-2efb0c9922df
+    label: 'Enke et al. 2021, Cognitive biases: Mistakes or missing stakes?'
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-d16fb38defbe
+  archived: false
+  layout: bullets
+  title: 'Case Study: With and Without Review'
+  bullets:
+  - Nine clinicians estimated outcomes for 100 patient abstracts, with or without a predictive rule
+  - Estimates were similar with or without access to the rule
+  - 'Clinicians overestimated operative mortality: 7.6% vs. the model''s 6.3%'
+  - Clinicians trusted their own estimates over the predictive rule
+  speaker_notes: 'Ivanov et al. (2000) gave clinicians a predictive rule for half the study. Access did
+    not change their estimates, and they overestimated both mortality and prolonged ICU stay relative
+    to the model (ICU stay: 28% vs. 25%). Ask what a structured review step would have needed to change
+    in this process.'
+  purpose: A model-driven decision compared with and without structured review.
+  citations:
+  - source_id: source-b2af78b9bd5e
+    label: Ivanov et al. 2000, Clinicians vs. statistical model for CABG outcomes
+    url: null
+    line_start: 87
+    line_end: 101
+- id: slide-4e22c33c3a2a
+  archived: false
+  layout: bullets
+  title: Designing Decision Systems
+  bullets:
+  - The same attribute can be highly accessible in one display but not in another
+  - Build calibration into organisational systems, not only individual habits
+  - Design options can mitigate automation bias in decision-support systems
+  - Require a short check of key assumptions before acting on model output
+  speaker_notes: Displays and workflows shape what System 1 notices. The check on key assumptions is a
+    practical recommendation; the cited sources give design principles rather than this specific step.
+  purpose: Defaults, displays, and friction that account for System 1.
+  citations:
   - source_id: source-c4bd70e31d8d
     label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 937
+    line_end: 947
+  - source_id: source-0c230ae5775c
+    label: 'Egan 2025, Stay calibrated: a practical guide to debiasing decision-making'
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-e455455d862a
+    label: Parasuraman & Manzey 2010, Complacency and bias in human use of automation
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-a9ef4529181e
+  archived: false
+  layout: bullets
+  title: 'Course Synthesis: A Decision-Audit Framework'
+  bullets:
+  - 'Framing: are the options described the same way across alternatives?'
+  - 'Reference point: is the judgment shaped by losses or existing holdings?'
+  - 'Environment: is it predictable, and has the judge received feedback?'
+  - 'Model trust: is model output being over- or under-trusted?'
+  - 'Before committing: elicit calibrated ranges, run a premortem, test sensitivity'
+  speaker_notes: Use this as the one-page audit for the whole course. Framing and reference-point questions
+    come from Kahneman (2003); predictability and feedback from Kahneman & Klein (2009); model trust from
+    Dietvorst et al. (2015) and Parasuraman & Manzey (2010); pre-decision steps from Egan (2025) and Klein
+    (2008).
+  purpose: Combining the course into one audit checklist.
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-2ecd078c536a
+    label: Kahneman & Klein 2009, Conditions for intuitive expertise
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-ae81aaef05f9
+    label: Dietvorst, Simmons & Massey 2015, Algorithm aversion
+    url: null
+    line_start: null
+    line_end: null
+  - source_id: source-d19a8f84cb71
+    label: Klein 2008, Performing a project premortem
+    url: null
+    line_start: null
+    line_end: null
+- id: slide-a2f258e17a41
+  archived: false
+  layout: closing
+  title: Closing and Next Steps
+  text: Audit one real decision with the framework, then compare your stated confidence with the outcome.
+  speaker_notes: Ask learners to bring one decision from their own work to the next session and run the
+    audit on it.
+  purpose: Close the course and point to quizzes and further reading.
+  citations:
+  - source_id: source-0c230ae5775c
+    label: 'Egan 2025, Stay calibrated: a practical guide to debiasing decision-making'
     url: null
     line_start: null
     line_end: null
