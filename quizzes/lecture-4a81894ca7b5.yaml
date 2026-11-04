@@ -1,0 +1,129 @@
+schema_version: 1
+lecture_id: lecture-4a81894ca7b5
+questions:
+- id: question-16076fc71bfb
+  prompt: Two versions of the Asian disease problem have the same outcomes. In one, a sure program saves
+    200 of 600 people; in the other, 400 of 600 people die under the sure option. Why did preferences
+    reverse?
+  options:
+  - id: option-601e63504cd9
+    text: The reworded programs have different expected outcomes, so people correctly updated their choices.
+    correct: false
+    explanation: The two versions have no substantive difference in outcomes, as Kahneman (2003) notes.
+      The reversal comes from the wording, not from a change in the numbers.
+    citations: []
+  - id: option-55f55d8bf2f1
+    text: The same outcomes evoke different associations, so a sure gain is favored and a sure loss is
+      avoided.
+    correct: true
+    explanation: null
+    citations: []
+  - id: option-637eaf500678
+    text: Participants misread the probabilities in the second version, so they chose the gamble by mistake.
+    correct: false
+    explanation: The reversal is systematic across respondents and is not explained by misreading. Kahneman
+      (2003) attributes it to different associations and evaluations evoked by the same outcomes.
+    citations: []
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 993
+    line_end: 1010
+- id: question-ec9a0d00f52d
+  prompt: A 50/50 gamble wins $150 or loses $100. Its expected value is +$25, yet most people reject it.
+    Which explanation fits prospect theory?
+  options:
+  - id: option-a39c9f97b6d3
+    text: The gamble's expected value is negative, so rejecting it is the correct choice.
+    correct: false
+    explanation: The expected value is 0.5 × $150 + 0.5 × (−$100) = +$25, so the gamble is favorable on
+      average. The rejection comes from the value function, not the arithmetic.
+    citations: []
+  - id: option-a8121c668656
+    text: People ignore the probabilities and respond only to the largest possible outcome.
+    correct: false
+    explanation: Prospect theory does not say probabilities are ignored; it says losses weigh more heavily
+      than equal gains. Most people reject the gamble unless the possible win is at least about twice
+      the possible loss (Kahneman, 2003).
+    citations: []
+  - id: option-d423865a66b2
+    text: Losses are weighed more heavily than equal gains, so the possible win must be about twice the
+      possible loss.
+    correct: true
+    explanation: null
+    citations: []
+  citations:
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 1381
+    line_end: 1400
+  - source_id: source-c4bd70e31d8d
+    label: Kahneman 2003, A perspective on judgment and choice
+    url: null
+    line_start: 1545
+    line_end: 1569
+- id: question-398bfb750477
+  prompt: Dietvorst, Simmons & Massey (2015) found that people avoid a statistical algorithm after seeing
+    it make an error. What best explains this algorithm aversion?
+  options:
+  - id: option-09ae35223c73
+    text: They lose confidence in the algorithm faster than in a human after both make the same mistake.
+    correct: true
+    explanation: null
+    citations: []
+  - id: option-28561f5e1a0d
+    text: They reject any forecast that contains a visible error, whether it comes from a human or an
+      algorithm.
+    correct: false
+    explanation: 'The study shows the asymmetry: after the same mistake, people lose confidence in the
+      algorithm more quickly than in a human forecaster. Errors by humans do not produce the same loss
+      of confidence.'
+    citations: []
+  - id: option-8b52c5cb3d3d
+    text: They correctly learned that algorithms are less accurate than human forecasters.
+    correct: false
+    explanation: Algorithms were the more accurate forecasters in these studies. Participants avoided
+      them even after seeing them outperform a human, so the avoidance was not based on accuracy.
+    citations: []
+  citations:
+  - source_id: source-ae81aaef05f9
+    label: Dietvorst, Simmons & Massey 2015, Algorithm aversion
+    url: null
+    line_start: 1
+    line_end: 6
+- id: question-745efbc050a2
+  prompt: Which statement describes a well-calibrated judgment?
+  options:
+  - id: option-c321a71e37d0
+    text: Your forecasts are usually correct, whatever confidence you state.
+    correct: false
+    explanation: Calibration is about how well stated confidence matches accuracy, not about accuracy
+      alone. Egan (2025) says a well-calibrated thinker is not necessarily always right, and a high hit
+      rate with low stated confidence is still miscalibrated.
+    citations: []
+  - id: option-d773ae5d252a
+    text: You never state confidence below 90%, so you are never underconfident.
+    correct: false
+    explanation: Stating high confidence does not make a judgment calibrated. Egan (2025) defines calibration
+      as aligning confidence with accuracy, so always stating 90% is overconfidence unless about 90% of
+      those events happen.
+    citations: []
+  - id: option-346aca9ccce2
+    text: Your average confidence matches the average confidence of other experts.
+    correct: false
+    explanation: Calibration is measured against outcomes, not against other people's confidence. Egan
+      (2025) defines it as confidence aligning with accuracy.
+    citations: []
+  - id: option-35959bf4ff35
+    text: Of the events you rate at 80%, about 80% occur.
+    correct: true
+    explanation: null
+    citations: []
+  citations:
+  - source_id: source-0c230ae5775c
+    label: 'Egan 2025, Stay calibrated: a practical guide to debiasing decision-making'
+    url: null
+    line_start: 1
+    line_end: 12
